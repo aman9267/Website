@@ -1,0 +1,62 @@
+.Header {
+  color: red;
+}
+.headerStyle {
+  color: white;
+  margin-left: 2rem;
+  flex-flow: column wrap;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+}
+.setAboutLogo {
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bolder;
+
+  margin-top: 1rem;
+}
+.setAboutText {
+  line-height: 40px;
+  position: absolute;
+  left: 15spx;
+}
+.setAboutLogo::before {
+  content: "";
+
+  width: 40px;
+  left: 30px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fa5002;
+}
+.arrow1 {
+  position: relative;
+  left: 20px;
+}
+
+.arrow {
+  line-height: " 50px";
+  position: " absolute";
+  /* left: 100px; */
+  animation-name: test;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+/* Create Animation */
+
+@keyframes test {
+  0% {
+    padding-top: 0px;
+    transform: scale(0);
+  }
+
+  100% {
+    padding-top: 10px;
+    transform: scale(1);
+  }
+}
