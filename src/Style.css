@@ -1,17 +1,7 @@
 .Header {
   color: red;
 }
-.headerStyle {
-  color: white;
-  margin-left: 2rem;
-  flex-flow: column wrap;
-  justify-content: center;
-  justify-items: center;
-  display: flex;
-  width: 100%;
-  height: auto;
-  min-height: 90vh;
-}
+
 .setAboutLogo {
   position: relative;
   display: flex;

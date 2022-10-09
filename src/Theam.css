@@ -50,5 +50,18 @@ Link {
   text-decoration: none;
 }
 .container {
-  margin-top: 65px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-items: left;
+}
+.Content {
+  margin-top: 18%;
+  margin-left: 2rem;
+  text-align: left;
+}
+.image {
+  /* background-color: #444; */
+  width: 60%;
+  height: 90vh;
 }
